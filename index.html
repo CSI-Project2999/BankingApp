@@ -1,9 +1,120 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
-  <title> HTML</title>
-  <meta charset="UTF-8">
+	<title>Banking Website</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color:powderblue;">
+<body>
+	
+
+		<!----NavigationBar---->
+		<section id="nav-bar">
+		  <nav class="navbar navbar-expand-lg navbar-light">
+	<a class="navbar-brand" href="#"><img src="img/bank.jpg" width="75" height="75"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav ml-auto">
+		<li class="nav-item">
+			<a class="nav-link" href="index.html">HOME</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">SERVICES</a>
+			<div class="sub-menu-1">
+				<ul>
+				<li><a class="nav-link" href="account.html">Manage Accounts</a></li>
+				<li><a class="nav-link" href="#">Pay & Transfer </a></li>
+				<li><a class="nav-link" href="loan.html">Personal Loans</a></li>
+				<li><a class="nav-link" href="tracking.html">Spendings & Expense Tracking</a></li>
+				</ul>
+				</div>
+				
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">CONTACT US</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="aboutus.html">ABOUT US</a>
+		</li>
+		</ul>
+	</div>
+	</nav>
+		</section>
+		
+		<!-------Login------>
+		<div class="login-box">
+  <h1>Login</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Username">
+  </div>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password">
+  </div>
+
+  <input type="button" class="btn" value="Sign in">
+   <input type="button" class="btn2" value="Forgot Password?">
+    <input type="button" class="btn3" value="No Account? Sign Up">
+	
+</div>
+
+
+		  		<!----------Services------>
+		<section id="services">
+			<div class="container">
+				<h1>Our Services</h1>
+				<div class="row services">
+				<div class="col-md-3 text-center">
+				<div class="icon">
+				<img src="img/card.png"width="30" height="25">
+				</div>
+				<h3>Check Funds</h3>
+				<p> Take a look at your checking and saving account funds in your accounts. </p>
+				</div>
+				
+				
+				<div class="col-md-3 text-center">
+				<div class="icon">
+				<img src="img/percentage.png"width="30" height="25">
+				</div>
+				<h3>Calculate Loan Interests</h3>
+				<p>Use our loan calculator to get an accurate estimate of our loans of various interest  options </p>
+				</div>
+				
+				
+				<div class="col-md-3 text-center">
+				<div class="icon">
+				<img src="img/chat.png"width="30" height="25">
+				</div>
+				<h3>Customer Support/Financial Advising</h3>
+				<p> Call our customer support line to get technical help, or speak with a financial advisor about any financial questions. </p>
+				</div>
+				
+				
+				<div class="col-md-3 text-center">
+				<div class="icon">
+				<img src="img/pie.png"width="30" height="25">
+				</div>
+				<h3>Manage Spendings</h3>
+				<p>Use our charts to manage the way you spend, and track your different expenses. </p>
+				</div>
+				
+				
+				<div class="col-md-12 text-center">
+				<div class="icon">
+				<img src="img/shield.png"width="30" height="25">
+				</div>
+				<h3>Stay Secure</h3>
+				<p>Use your password, and your determined security <br> questions for authentication, to keep your account secure.</p>
+				</div>
+			</div>
+			</section>
+		
 </body>
 </html>
