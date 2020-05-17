@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Banking Website</title>
+	<title>Oakland Financial Corporation</title>
 		<link rel="stylesheet" href="Css/style.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -26,8 +26,8 @@
 			<a class="nav-link" href="#">SERVICES</a>
 			<div class="sub-menu-1">
 				<ul>
-				<li><a class="nav-link" href="pages/login.php">Manage Accounts</a></li>
-				<li><a class="nav-link" href="#">Pay & Transfer </a></li>
+				<li><a class="nav-link" href="pages/account.html">Manage Accounts</a></li>
+				<li><a class="nav-link" href="pages/login.html">Pay & Transfer </a></li>
 				<li><a class="nav-link" href="pages/loan.html">Personal Loans</a></li>
 				<li><a class="nav-link" href="pages/tracking.html">Spendings & Expense Tracking</a></li>
 				</ul>
@@ -35,7 +35,7 @@
 				
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="pages/contact.html">CONTACT US</a>
+			<a class="nav-link" href="#">CONTACT US</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="pages/aboutus.html">ABOUT US</a>
@@ -46,21 +46,11 @@
 		</section>
 		
 		<!-------Login------>
-		<div class="login-box">
-  <h1>Login</h1>
-  <div class="textbox">
-    <i class="fas fa-user"></i>
-    <input type="text" placeholder="Username">
-  </div>
+		<div class="login-init">
+  <h1>Welcome!</h1>
+  <button class="signin" onclick="window.location.href = 'pages/login.html';">Sign In</button>
+  <button class="signup" onclick="window.location.href = 'pages/login.html';">Not a member? Sign Up</button>
 
-  <div class="textbox">
-    <i class="fas fa-lock"></i>
-    <input type="password" placeholder="Password">
-  </div>
-
-  <input type="button" class="btn" value="Sign in">
-   <input type="button" class="btn2" value="Forgot Password?">
-    <input type="button" class="btn3" value="No Account? Sign Up">
 	
 </div>
 
@@ -115,6 +105,9 @@
 				</div>
 			</div>
 			</section>
+
+
+		
 		
 </body>
 </html>
